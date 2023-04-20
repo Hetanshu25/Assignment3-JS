@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center align h1 */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Center the to-do container div and set width */
+#list-container {
+    margin: 20px auto;
+    width: 60%;
+}
+
+/* Update input styles */
+#input {
+    padding: 10px; 
+    width: 80%; 
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Update button styles */
+#button {
+    padding: 10px 20px; 
+    border-radius: 5px;
+    border: none;
+    background-color: #12b3e0;
+    color: white;
+    cursor: pointer;
+}
+
+/* Update button hover styles */
+#button:hover {
+    background-color: #12b3cc;
+}
+
+/* Reset default list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Update list item styles */
+li {
+    padding: 15px; 
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+/* Remove bottom border from last list item */
+li:last-child {
+    border-bottom: none;
+}
+
+/* Update checkbox styles */
+li input[type=checkbox] {
+    margin-right: 10px;
+}
+
+/* Update completed item styles */
+li.completed {
+    text-decoration: line-through;
+    color: #ccc;
+}
